@@ -8,3 +8,5 @@ select * from CUSTOMERS where Snum = 1001 or Snum = 1004;
 select * from CUSTOMERS where Cname REGEXP '^[A-G].*$';
 
 select * from CUSTOMERS where Cname REGEXP '^C.*$';
+
+select * from ORDERS where Amt is not null and Amt <> 0;
